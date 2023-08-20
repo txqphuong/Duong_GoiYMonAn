@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=6, initial-scale=1.0">
+    <link rel="stylesheet" href="./indexl1.css">
+    <!-- w3 lib for slides -->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <section id="Trang chủ">
+        <nav>
+            <div class="logo">
+                <img src="Logo Gợi ý món ăn.png">
+            </div>
+
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="#About">Về chúng tôi</a></li>
+                <li><a href="#Menu">Thực đơn</a></li>
+                <li><a href="#Event">Sự kiện</a></li>
+                <li><a href="#Review">Nhận xét</a></li>
+                <li><a href="#Order">Đặt ngay</a></li>
+            </ul>
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+
+        <div class="main">
+
+            <div class="main_image">
+                <img src="Bánh trung thu Malaysia.jpg" alt="" class="slides">
+                <img src="giảm giá.png" alt="" class="slides">
+                <img src="Lời chúc.png" alt="" class="slides">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--container-->
+    <div id="container">
+        <!--about-->
+        <div id="about">
+            <h1>Lễ <span>Trung Thu</span></h1>
+            <p>Tuy có nhiều sự tích về nguồn gốc Tết Trung thu 
+                nhưng tựu chung đây là dịp tôn vinh vẻ đẹp trăng
+                 rằm và mong cầu cuộc sống tươi vui, hạnh phúc. 
+                 Trong suốt hàng ngàn năm, con người luôn tin rằng có 
+                 sự liên kết giữa cuộc sống và ánh trăng. 
+                <br>
+                Hình ảnh trăng tròn tháng 8 trở thành biểu tượng của sự 
+                sum họp, đoàn viên. Trước đây, ngày Tết này còn mang ý 
+                nghĩa đặc biệt khi là dịp để dự đoán mùa màng và vận mệnh
+                 của đất nước qua màu sắc của ánh trăng.</p>
+            </div>
+
+            <div class="food">
+                <h2>Bánh Trung Thu của chúng tôi</h2>
+                <div class="men-img">
+                    <img src="bánh 1.jpg" width="350px" height="450px">
+                    <img src="bánh 2.jpg" width="350px" height="450px">
+                    <img src="bánh 3.jpg" width="350px" height="450px">
+                </div>
+            </div>
+
+    <!--contact-->
+    <div id="contact">
+        <h2>Đặt Ngay</h2>
+            <!--font-->
+            <form action="" target="_blank">
+                <input type="text" class="input" placeholder="Name" required="Name">
+                <input type="text" class="input" placeholder="Email"required="Email">
+                <input type="text" class="input" placeholder="Message" required="Message">
+                <button class="black-button">Đặt</button>
+            </form>
+</body>
+
+<script>
+    w3.slideshow(".slides" ,1300)
+</script>
+
+</html>
